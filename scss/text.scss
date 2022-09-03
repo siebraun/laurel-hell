@@ -1,0 +1,52 @@
+.headline {
+  font-size: 54px;
+  font-family: rift, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 7px;
+  margin-top: 70px;
+}
+
+.headline--pink {
+  color: pink;
+}
+
+.headline--centered {
+  text-align: center;
+}
+
+.subheader {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 7px;
+  color: white;
+}
+
+.para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+}
+
+.para--condensed {
+  line-height: 140%;
+}
+
+.para--bold {
+  font-weight: 900;
+}
+
+.para--stars {
+  font-size: 40px;
+  margin-bottom: -20px;
+}
+
+.button--pink {
+  color: white;
+  background-color: rgb(199, 105, 121);
+  border-radius: 20px;
+  padding: 10px 20px;
+}

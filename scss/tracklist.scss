@@ -1,0 +1,55 @@
+//variables
+$pink: #ef6fa3;
+$deep-pink: #ed4b8d;
+$white: #f2f2f2;
+$black: #2d2d2d;
+$gray: #363636;
+$light-gray: #3a3a3a;
+$lighter-gray: #484848;
+
+.tracklist__wrapper {
+  height: 125%;
+  background-color: #252525;
+  .tracklist__content {
+    .album__playlist {
+      margin: 50px auto;
+      // max-width: 1000px;
+      width: 90%;
+      height: 100%;
+      display: flex;
+      //   flex-wrap: wrap;
+
+      .album__img {
+        width: 500px;
+        height: 781px;
+        background-color: red;
+        background-image: url(../assets/sidebar.jpeg);
+        background-size: cover;
+        background-position: center;
+      }
+
+      .album__content {
+        width: 100%;
+
+        .album__songs {
+          width: 100%;
+          border-collapse: collapse;
+
+          .song__row {
+            color: $white;
+
+            td {
+              padding: 20px 25px;
+              border-top: 1px solid $lighter-gray;
+              transition: all 0.3s;
+            }
+
+            td:last-child {
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+  }
+}

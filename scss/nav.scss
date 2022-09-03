@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    .nav__links{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+
+        
+        a{
+            text-decoration: none;
+            color: white;
+
+        }
+    }
+
+    .nav__logo{
+        color: white;
+
+        
+    }
+
+}

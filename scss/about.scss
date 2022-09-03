@@ -1,0 +1,41 @@
+.about__wrapper {
+  .about__content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .about__text {
+      // background-color: red;
+    }
+
+    .about__stats {
+      // background-color: red;
+
+      .statbox {
+        // background-color: white;
+        margin-top: 30px;
+
+        .stats__number {
+          font-size: 60px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: pink;
+        }
+
+        .stats__desc {
+          margin-top: -10px;
+        }
+      }
+    }
+
+    .about__photobox {
+      background-color: red;
+
+      background-image: url(../assets/album-cover.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.reviews__wrapper {
+  .nav--fullwidth {
+    padding-left: 125px;
+    padding-right: 125px;
+  }
+
+  .reviews__content {
+    display: flex;
+    justify-content: space-around;
+
+    .reviews__box {
+      height: 580px;
+      background-color: red;
+      padding: 50px;
+
+      .reviews__stars {
+        padding-top: 30px;
+      }
+    }
+  }
+
+  #review--one {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(37, 37, 37, 0.75),
+        rgba(37, 37, 37, 37.75)
+      ),
+      url(../assets/review-one.jpg);
+  }
+
+  #review--two {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(37, 37, 37, 0.75),
+        rgba(37, 37, 37, 37.75)
+      ),
+      url(../assets/review-two.jpg);
+  }
+
+  #review--three {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(37, 37, 37, 0.75),
+        rgba(37, 37, 37, 37.75)
+      ),
+      url(../assets/review-three.jpg);
+  }
+
+  #review--four {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(37, 37, 37, 0.75),
+        rgba(37, 37, 37, 37.75)
+      ),
+      url(../assets/review-four.jpg);
+  }
+}

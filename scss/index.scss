@@ -1,0 +1,20 @@
+.index__wrapper{
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0.5)), url(../assets/index-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .index__text{
+        padding-right: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+
+        .index__para{
+            width: 50%;
+            text-align: right;
+        }
+    }
+}
